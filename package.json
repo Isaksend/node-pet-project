@@ -1,0 +1,35 @@
+{
+  "name": "isatag",
+  "version": "1.0.0",
+  "description": "Мини-социальная сеть на базе Node.js, Express, Socket.IO и Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build:css": "npx tailwindcss -i ./src/styles/tailwind.css -o ./public/styles.css --watch"
+  },
+  "keywords": [
+    "social-network",
+    "nodejs",
+    "express",
+    "socket.io",
+    "sequelize"
+  ],
+  "author": "Isaksend",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.5.1",
+    "express": "^4.21.1",
+    "ioredis": "^5.4.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.1",
+    "redis": "^4.7.0",
+    "sequelize": "^6.37.5",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
+  }
+}
